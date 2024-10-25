@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos y Cómics</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>VANDAL</h1>
+        <nav>
+            <ul>
+                <li><a href="#videogames">Videojuegos</a></li>
+                <li><a href="#comics">Cómics</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="videogames" class="videogames">
+        <h2>
+            <i class="fa-solid fa-gamepad"></i>
+            Descubre lo último en videojuegos y comics, desde títulos AAA hasta indies que están revolucionando el mundo
+            del
+            gaming.
+            <i class="fa-solid fa-gamepad"></i>
+        </h2>
+        <br>
+        <div id="games-container">
+            <div class="game" id="zelda">
+                <p><strong>TEARS OF THE KINGDOM</strong></p>
+                <a href="https://zelda.nintendo.com/tears-of-the-kingdom/es/"><img id="zeld" src="img/totk.jpg"
+                        alt="zelda"></a>
+            </div>
+            <div class="game" id="TBOI">
+                <p><strong>THE BINDING OF ISAAC</strong></p>
+                <a href="https://bindingofisaacrebirth.fandom.com/wiki/Binding_of_Isaac:_Rebirth_Wiki"><img id="tbo"
+                        src="img/TBOI.jpg" alt="TBOI"></a>
+            </div>
+            <div class="game" id="fortnite">
+                <p><strong>FORTNITE</strong></p>
+                <a href="https://www.fortnite.com/?lang=es-ES"><img id="fort" src="img/fortnite.jpg" alt="fortnite"></a>
+            </div>
+            <div class="game">
+                <p><strong>THE LAST OF US</strong></p>
+                <a href="https://www.playstation.com/es-es/games/the-last-of-us-part-i/"><img id="the"
+                        src="img/tlou.jpg" alt="tlou"></a>
+            </div>
+            <div class="game" id="readyornot">
+                <p><strong>READY OR NOT</strong></p>
+                <a href="https://store.steampowered.com/app/1144200/Ready_or_Not/?l=spanish"><img
+                        src="img/readyornot.jpg" alt="readyornot"></a>
+            </div>
+        </div>
+    </section>
+    <section id="comics" class="comics">
+        <h2><i class="fa-solid fa-book"></i>CÓMICS<i class="fa-solid fa-book"></i></h2>
+        <h3>Los comics mejores valorados de la historia</h3>
+        <br>
+        <div class="game" id="games-container2">
+            <div>
+                <p><strong>BATMAN THE KILLING JOKES</strong></p>
+                <img src="img/batman-the-killing-joke.jpeg" alt="batman">
+            </div>
+            <div>
+                <p><strong>ONE PIECE</strong></p>
+                <img src="img/one-piece-mosaico.jpeg" alt="onepiece">
+            </div>
+            <div>
+                <p><strong>SPIDERMAN-INTO-SPIDERVERSE</strong></p>
+                <img src="img/spiderman-into-the-spiderverse.jpeg" alt="spiderman">
+            </div>
+            <div>
+                <p><strong>WATCHMEN</strong></p>
+                <img src="img/watchmen.jpeg" alt="watchmen">
+            </div>
+            <div>
+                <p><strong>GREEN LANTERNS</strong></p>
+                <img src="img/greenlanterns.jpeg" alt="greenlantern">
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="logos" id="logo">
+            <div>
+                <a href="https://www.instagram.com/"><img id="insta" src="img/instagram.jpeg" alt="insta"></a>
+            </div>
+            <div>
+                <img id="youtube" src="img/Youtube.jpeg" alt="youtube">
+            </div>
+            <div>
+                <a href="mailto:gabrielmedinahernandez@alumno.ieselrincon.es"><img id="gmail" src="img/gmail.jpeg"
+                        alt="gmail"></a>
+            </div>
+            <div>
+                <script>
+                    document.getElementById("youtube").onclick = function () {
+                        window.location.href = "https://www.youtube.com";
+                    };
+                </script>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
+
+<!-- https://dribbble.com/shots/23012831-Traffio-UI-UX ejemplo que use para mi pagina web-->
